@@ -54,7 +54,7 @@ export default function SearchBox ({updateInfo}) {
                 <TextField id='city' label='City Name' variant='outlined' required value={city} onChange={handleChange} style={{backgroundColor: "aliceblue"}}/>
                 <br></br>
                 <Button variant='contained' type='submit' style={{backgroundColor: "blue"}}>Search</Button>
-                {error && <p style={{color : "red"}}>No such place Exist</p>}
+                {error && <p style={{color : "white"}}>No such place Exist</p>}
             </form>
         </div>
     )
